@@ -1,0 +1,59 @@
+:root{
+
+    --text-color: #11EDED;
+    --card-bg: #FEFE3E;
+
+}
+html{
+    height:100%;
+}
+
+ body{
+    background-image: url(https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-concrete_1258-82891.jpg?w=2000);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* filter: opacity(.3); */
+}
+header{
+    color: var(--text-color)
+}
+.card{
+    display: inline-flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    /* flex-direction: row; */
+    background-color:var(--card-bg);
+    width: 250px;
+    height: 500px;
+    border: solid 5px;  
+    border-radius: 1rem;  
+    padding: 2rem;
+    margin:0rem -2rem 0rem 0rem;
+    box-shadow: 2px 2px 2px 2px black;
+
+}
+#cards {
+    width: 250px;
+    background-color:var(--card-bg);
+    /* width: 230px; */
+    height: 500px;
+    border: solid 5px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border-radius: 1.5rem;
+    padding: 1rem;
+    margin:0rem -2rem 0rem 0rem;
+    box-shadow: 2px 2px 2px 2px black;
+    
+}
+.card:hover{
+    transform: translateY(-5rem);
+}
+#cards:hover{
+    transform: translateY(10rem);
+}
