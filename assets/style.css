@@ -33,31 +33,31 @@ h1{
 h2{
     color: var(--text-color);
     align-items: baseline;
-    margin: 5px 0px 0px 0px
+    margin: 5px 0px 0px 0px;
 
 
 }
 nav{
-    /* display: flex; */
     color: var(--text-color);
     text-align: center;
 }
 
 ul {
-    display:inline-flex;
-    /* justify-content: flex-end; */
-    /* text-decoration: none; */
-    /* float: right; */
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
     
 
 }
 
+
 li {
 
     list-style: none;
-    margin: 10px 10px 0px 0px;
-    /* text-decoration: none; */
-    /* justify-content: flex-end; */
+    margin: 10px 20px 0px 0px;
+ 
 }
 a {
 
@@ -153,7 +153,10 @@ img{
 
 footer{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* justify-content: center; */
     color: var(--text-color);
-    margin: 10px ;
+    margin: 10px 20px 5px 5px ;
     
 }
