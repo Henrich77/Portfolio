@@ -1,7 +1,7 @@
 :root{
 
     --text-color: lightgray;
-    --card-bg: #FEFE3E;
+    --card-bg: grey;
 
 }
 html{
@@ -15,25 +15,32 @@ html{
   
 }
 header{
-    display: flex;
-    /* flex-direction: row-reverse */
-    /* justify-content: space-evenly; */
-    /* justify-content: ; */
+   
     color: var(--text-color)
 
 }
 
 h1{
-    justify-self: flex-end;
+
+    color: rgb(189, 18, 18);
+    text-shadow: 0 0 80px white, 0 0 80px white;
+    font-size: 14rem;
+    font-family:cursive; 
+    /* padding: 20px; */
+    /* margin: 20px 20px 15px 15px; */
+}
+
+h2{
+    color: var(--text-color);
+    align-items: baseline;
+    margin: 5px 0px 0px 0px
+
 
 }
 nav{
-    display: flex;
-    /* justify-content: space-around; */
-    /* text-decoration: none; */
-    /* color: white; */
-    /* justify-content: flex-end; */
-    color: var(--text-color)
+    /* display: flex; */
+    color: var(--text-color);
+    text-align: center;
 }
 
 ul {
@@ -56,7 +63,8 @@ a {
 
     text-decoration: none;
     /* color: white; */
-    color: var(--text-color)
+    color: var(--text-color);
+    font-size: 35px;
 
 
 }
@@ -64,18 +72,66 @@ a {
  div{
 
     display: flex;
-    background-color: lightgray;
-    border: 5px dashed black;
-    color: lightgray;
+    background-color: white;
+    border: 5px dotted white;
+    color: lightblue;
+    /* width: 200px; */
+    height: 10px;
 
-} figure{
 
-    border: 5px solid lightgrey;
-    border-radius: 5em;
-    width: 500px;
-    height: 200px;
-    display: inline-flex;
-    flex-direction: row-reverse;
+    box-shadow:
+    inset 0 0 10px rgb(189, 18, 18),      
+    inset 20px 0 50px grey,   
+    inset -20px 0 50px white,  
+    inset 20px 0 300px grey,  
+    inset -20px 0 100px white, 
+    0 0 10px #fff,            
+    -10px 0 40px grey,        
+    10px 0 40px lightgray;  
+
+} 
+
+h2 figure{
+
+    text-align: left;
+    margin: 0rem 0rem 0rem 10rem;
+}
+
+
+figure{
+
+    
+    border-radius: 1rem;
+    width: 600px;
+    height: 250px;
+    background-image: url(https://thumbs.dreamstime.com/b/white-chalk-over-blackboard-background-texture-diagonal-smudges-44396178.jpg;);
+    /* box-shadow: 2px 5px 10px 4px black; */
+    margin: 2rem -2rem 2rem 0rem;
+
+}
+
+.boxes {
+    display: flex;
+    /* flex-basis: 200px; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    /* margin: 0rem -5rem 0rem 0rem; */
+    
+
+
+}
+
+#bigbox{
+
+    width: 1000px;
+    height: 400px;
+    margin: top 0rem;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUMD7IxwB8Vbfstg6P0y5kOhQ9xrWPkJUt_6BiVjn9wF9xuKwEG6ygUlF5z8d_Q6aK_mI&usqp=CAU);
+}
+article figure:hover{
+    transform: translateY(-5rem);
+    
 }
  p{
 
@@ -98,5 +154,6 @@ img{
 footer{
     display: flex;
     color: var(--text-color);
+    margin: 10px ;
     
 }
