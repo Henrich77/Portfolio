@@ -113,7 +113,7 @@ figure{
 .boxes {
     display: flex;
     /* flex-basis: 200px; */
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content:center;
     /* margin: 0rem -5rem 0rem 0rem; */
