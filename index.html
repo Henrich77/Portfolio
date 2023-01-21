@@ -59,14 +59,18 @@
                 <div class="swiper-slide"></div>
                 <div class="swiper-slide"></div>
                 <div class="swiper-slide"></div>
+
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
     </section>
     <footer>
         <h2 id="Contact me"> Contact Me </h2>
         <ul>
             <li> Email: Henrichtanis@gmail.com</li>
-            <li> Phone</li>
+            <li> Phone: 786.704.2458</li>
             <li><a href="https://github.com/Henrich77">Github</a></li>
         </ul>
     </footer>
@@ -75,8 +79,20 @@
     <script>
         var swiper = new Swiper(".mySwiper", {
           watchSlidesProgress: true,
-          slidesPerView: 3,
+          slidesPerView: 2,
           grabCursor: true,
+          autoplay: {
+          delay: 2500,
+          disableOnInteraction: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        }
         });
       </script>
 </body>
