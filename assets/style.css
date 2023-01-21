@@ -2,6 +2,7 @@
 
     --text-color: lightgray;
     --card-bg: grey;
+    --main: rgb(189, 18, 18);
 
 }
 html{
@@ -10,8 +11,8 @@ html{
 
  body{
     /* background-color: rgb(243, 200, 136); */
-    background-color: white;
-    background-image: url(https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaxper-blackboard-chalkboard-concrete_1258-82891.jpg?w=2000);
+    background-color: darkgrey;
+    /* background-image: url(https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaxper-blackboard-chalkboard-concrete_1258-82891.jpg?w=2000); */
   
 }
 header{
@@ -40,6 +41,7 @@ h2{
 nav{
     color: var(--text-color);
     text-align: center;
+    font-size: 25px;
 }
 
 ul {
@@ -57,6 +59,7 @@ li {
 
     list-style: none;
     margin: 10px 20px 0px 0px;
+    font-size: 25px;
  
 }
 a {
@@ -64,12 +67,12 @@ a {
     text-decoration: none;
     /* color: white; */
     color: var(--text-color);
-    font-size: 35px;
+    font-size: 25px;
 
 
 }
 
- div{
+ /* div{
 
     display: flex;
     background-color: white;
@@ -89,7 +92,7 @@ a {
     -10px 0 40px grey,        
     10px 0 40px lightgray;  
 
-} 
+  */
 
 h2 figure{
 
@@ -98,7 +101,7 @@ h2 figure{
 }
 
 
-figure{
+box{
 
     
     border-radius: 1rem;
@@ -124,10 +127,10 @@ figure{
 
 #bigbox{
 
-    width: 1000px;
-    height: 400px;
     margin: top 0rem;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUMD7IxwB8Vbfstg6P0y5kOhQ9xrWPkJUt_6BiVjn9wF9xuKwEG6ygUlF5z8d_Q6aK_mI&usqp=CAU);
+    background-image: url(/assets/Project\ 1\ image.png);
+    background-size: contain;
+    width: 400px
 }
 article figure:hover{
     transform: translateY(-5rem);
@@ -146,8 +149,8 @@ article figure:hover{
 }
 img{
 
-    float: right;
-    width: 300px;
+    /* float: right; */
+    /* width: 300px; */
     background-color: bisque;
 }
 
@@ -157,6 +160,7 @@ footer{
     justify-content: space-between;
     /* justify-content: center; */
     color: var(--text-color);
-    margin: 10px 20px 5px 5px ;
+    margin-top: 10px;
+    
     
 }
