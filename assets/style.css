@@ -24,7 +24,7 @@ header{
 h1{
 
     color: #882525;
-    text-shadow: 50px 50px 80px rgb(227, 228, 163), 0 0 80px rgb(227, 223, 223);
+    /* text-shadow: 50px 50px 80px rgb(227, 228, 163), 0 0 80px rgb(227, 223, 223); */
     font-size: 14rem;
     font-family: 'Monoton', cursive;
     /* padding: 20px; */
