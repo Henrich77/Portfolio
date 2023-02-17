@@ -108,7 +108,7 @@ box{
     border-radius: 1rem;
     width: 600px;
     height: 250px;
-    background-image: url(https://thumbs.dreamstime.com/b/white-chalk-over-blackboard-background-texture-diagonal-smudges-44396178.jpg;);
+    /* background-image: url(https://thumbs.dreamstime.com/b/white-chalk-over-blackboard-background-texture-diagonal-smudges-44396178.jpg;); */
     /* box-shadow: 2px 5px 10px 4px black; */
     margin: 2rem -2rem 2rem 0rem;
 
@@ -164,4 +164,10 @@ footer{
     margin-top: 10px;
     
     
+}
+#fitness {
+
+    background-image: url("https://user-images.githubusercontent.com/119962472/219132970-6d98f17f-d23a-4573-8ea9-c78ed4f29120.png");
+    background-size: cover;
+    width: 600px
 }
